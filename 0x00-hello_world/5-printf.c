@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  * Description: it prints the word
- * Return: always returns 0 (success)
+ * Return: alwas returns 0 (success)
  */
 int main(void)
 {
