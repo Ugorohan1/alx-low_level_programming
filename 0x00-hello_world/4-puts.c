@@ -2,16 +2,16 @@
 #include <string.h>
 
 /**
- * main - Entry point
+ * main Entry point
  * Description: prints the word
  * Return: always the value 0 (success)
  */
 
 int main(void)
 {
-	char stry1[] = "\"programming is like building a machine";
+	char str1[] = "\"programming is like building a multilingual puzzle";
 
 	puts(str1);
-
-		return (o);
+	return (0);
 }
+
