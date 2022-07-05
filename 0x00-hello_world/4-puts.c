@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * main - Entry point
+ * main - Entry poin
  * Description: prints the word
  * Return: always the value 0 (success)
  */
