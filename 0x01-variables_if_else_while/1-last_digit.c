@@ -6,7 +6,7 @@
  * main - Entry Point
  * Description: Program to get the last digit of the number
  *
- * Return: Always the value 0 (sucess)
+ * Return: Always the value 0 (success)
  */
 
 int main(void)
@@ -15,7 +15,7 @@ int main(void)
 	int d;
 
 	srand(time(0));
-	n = rand() -RAND_MAX / 2;
+	n = rand() - RAND_MAX / 2;
 	d = n % 10;
 	if (d > 5)
 	{
