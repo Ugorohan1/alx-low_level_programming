@@ -16,7 +16,6 @@ int main(void)
 	printf("%lu", j);
 
 	for (i = 1; i < 91; i++)
-	{
 		printf(", %lu", k);
 
 		for (i = 1; i < 91; i++)
@@ -43,6 +42,5 @@ int main(void)
 
 		printf("\n");
 
-		return (0);
-	}
+	return (0);
 }
