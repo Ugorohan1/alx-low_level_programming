@@ -1,9 +1,10 @@
 #include "main.h"
 
-/* main - prints putchar
+/**
+ * main - Entry Point
+ * Description: Program to print putchar to stdout
  *
- * Description: print putchar
- * Return: always 0
+ * Return: Always the value of 0 (success)
  */
 int main(void)
 {
