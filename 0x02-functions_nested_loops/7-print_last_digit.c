@@ -5,7 +5,7 @@
  * @y: the arguments passed
  * Return: the last digit
  */
-int print_last_digit(int y);
+int print_last_digit(int y)
 {
 	int x;
 
