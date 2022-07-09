@@ -2,6 +2,8 @@
 
 /**
  * mul - a program that mutiplies two integers
+ * @a: is the value to be multiplied
+ * @b: is the second value in multiplication
  *
  * Return: return result
  */
