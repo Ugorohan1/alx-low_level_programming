@@ -4,7 +4,7 @@
 /**
  * _strncpy -> for copying purpose
  * @dest: param1
- * @dest: param1
+ * @src: param2
  * @n: param3
  *
  * Return: string
