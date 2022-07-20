@@ -1,5 +1,5 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - check the code
@@ -7,7 +7,6 @@
  * Return: Always 0.
  */
 
-void set_string(char **s, char *to);
 
 int main(void)
 {

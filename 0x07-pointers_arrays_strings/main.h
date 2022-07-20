@@ -9,6 +9,7 @@ unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
 void simple_print_buffer(char *buffer, unsigned int size);
+void set_string(char **s, char *to);
 
 
 #endif
