@@ -35,7 +35,7 @@ int wildcmp(char *s1, char *s2)
 	 * else increment s1 and s2 by 1
 	 */
 	if (*s1 == *s2)
-	{	
+	{
 
 		if (*s1 == '\0')
 			return (1);
