@@ -33,7 +33,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	}
 	(*dog).name = dup_name;
 	(*dog).age = age;
-	
+
 	dup_owner = dup(owner);
 	if (dup_owner == NULL)
 	{
