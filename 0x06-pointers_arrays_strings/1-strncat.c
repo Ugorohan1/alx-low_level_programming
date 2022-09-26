@@ -2,8 +2,9 @@
 /**
  * _strncat -> a string thst concatenates two strings
  * with a length in mind
- * @dest - first param to have src sting added.
- * @src - second param where the characters are from 
+ * @dest: first param to have src sting added.
+ * @src: second param where the characters are from
+ * @n: the specified length.
  *
  * Return: return a pointer to a string
  */
