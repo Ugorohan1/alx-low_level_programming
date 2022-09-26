@@ -30,7 +30,7 @@ char *_strcat(char *dest, char *src)
 
 	i = 0;
 	l = 0;
-	while(result[l] != '\0')
+	while (result[l] != '\0')
 	{
 		dest[i] = result[l];
 		l++;
