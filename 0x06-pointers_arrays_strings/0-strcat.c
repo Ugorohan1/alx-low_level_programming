@@ -11,26 +11,26 @@
 
 char *_strcat(char *dest, char *src)
 {
-	char result[1000];/*create temporary string to store the string before passing it to return*/
-	int i = 0, l = 0;
+	char result[1000];
+	int i = 0;
+	int l = 0;
 
-	while (dest[i] != '\0')/*this will help get the length of the destination string*/
+	while (dest[i] != '\0')
 	{
-		result[l] = dest[i];/*store the characters in the destination sting in the temporary.*/
+		result[l] = dest[i];
 		i++;
 		l++;/
 	}
 
-	for (i = 0; src[i] != 0; i++)/*store the values from src to the destination. start from the last*/
+	for (i = 0; src[i] != 0; i++)
 	{
-		result[l] = src[i];/*because this l is the length of the string it add to the end of it*/
-		l += 1;/*increase the length of the string for one more*/
+		result[l] = src[i];
+		l++;
 	}
-	result[l] = '\0';/*add the null byte at the end*/
 
 	i = 0;
 	l = 0;
-	while (result[l] != '\0')/*put the back in the destination string and return it*/
+	while (result[l] != '\0')
 	{
 		dest[i] = result[l];
 		l++;
