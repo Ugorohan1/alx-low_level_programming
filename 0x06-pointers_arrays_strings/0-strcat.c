@@ -8,21 +8,34 @@
  *
  * Return: a string
  */
+
 char *_strcat(char *dest, char *src)
 {
-	int i, len = 0;
+	char result[1000];
+	int i = 0, l = 0;
 
-	while (dest[len])
+	while (dest[i] != '\0')
 	{
-
-		len++;
+		result[l] = dest[i];
+		i++;
+		l++;
 	}
 
-	for (i = 0; dest[i] != 0; i++)
+	for (i = 0; src[i] != 0; i++)
 	{
-		dest[len] = src[i];
-		len += 1;
+		result[l] = src[i];
+		l += 1;
 	}
-	dest[len] = '\0';
+	result[l] = '\0';
+
+	i = 0;
+	l = 0;
+	while(result[l] != '\0')
+	{
+		dest[i] = result[l];
+		l++;
+		i++;
+	}
+	dest[i] = '\0';
 	return (dest);
 }
