@@ -1,5 +1,8 @@
 #include <stdio.h>
-
+/**
+ * main - a program dat does magic
+ *
+ * Return: return always 0.
 int main(void)
 {
 	int n;
