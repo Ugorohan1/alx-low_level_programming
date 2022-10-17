@@ -5,7 +5,7 @@
  * @argc: first param to count arguments
  * @argv: second param, array of string arguments
  *
- * Return: always 0;
+ * Return: 0 if true and 1 if error.
  */
 int main(int argc, char *argv[])
 {
@@ -15,6 +15,7 @@ int main(int argc, char *argv[])
 	{
 		printf("Error");
 		printf("\n");
+		return (1);
 	}
 	mul = atoi(argv[1]) * atoi(argv[2]);
 	printf("%d\n", mul);
