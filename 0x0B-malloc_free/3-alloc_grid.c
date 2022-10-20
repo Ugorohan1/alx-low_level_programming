@@ -26,7 +26,7 @@ int **alloc_grid(int width, int height)
 	}
 	for (i = 0; i < height; i++)/*loop to run the elements in the arrays height*/
 	{
-		agrid[i] = malloc(width * sizeof(int));/*initialise the arrays*/
+		grid[i] = malloc(width * sizeof(int));/*initialise the arrays*/
 		if (grid[i] == NULL)
 		{
 			for (i--; i >= 0; i--)
